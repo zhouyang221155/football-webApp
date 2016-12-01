@@ -10,7 +10,6 @@ require("./views/index");
 require("./views/home");
 require("./views/search");
 require("./views/my");
-require("./views/guide");
 require("./views/quit");
 require("./views/detail");
 
