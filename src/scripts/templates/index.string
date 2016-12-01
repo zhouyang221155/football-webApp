@@ -8,7 +8,7 @@
           <li action-type="switch.tabs" data-tag="search"><i class="yo-ico">&#xe65c;</i><b>发现</b></li>
           <li><i class="yo-ico">&#xe664;</i></li>
           <li action-type="switch.my" data-tag="my"><i class="yo-ico">&#xe735;</i><b>我的</b></li>
-          <li><i class="yo-ico">&#xe603;</i><b>退出</b></li>
+          <li><i class="yo-ico">&#xe603;</i><b>quit</b></li>
        </ul>
    </footer>
 </div>
