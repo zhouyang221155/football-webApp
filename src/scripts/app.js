@@ -13,6 +13,7 @@ require("./views/mine");
 require("./views/guide");
 require("./views/quit");
 require("./views/detail");
+require("./views/master")
 
 SPA.config({
 	indexView:"guide"
