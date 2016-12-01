@@ -1,0 +1,37 @@
+.m-search{
+	width:100%;
+	height:100%;
+	.m-pic{
+		width:100%;
+		height:2rem;
+		background:skyblue;
+	}
+	.m-nav{
+		width:100%;
+		height:.44rem;
+		background:#f00;
+	}
+	.m-content{
+		width:100%;
+		ul{
+			li{
+				width:100%;
+				height:.4rem;
+				line-height:.4rem;
+				@include box-sizing(border-box);
+				border-bottom:1px solid #ccc;
+				padding-left:.12rem;
+			}
+		}
+	}
+
+}
+/* .fixed类必须放在m-search结构的外面；且必须重复写上.m-nav的样式 */
+.fixed{
+	width:100%;
+	height:.44rem;
+	background:#f00;
+	position:fixed;
+	top:0;
+	left:0;
+}

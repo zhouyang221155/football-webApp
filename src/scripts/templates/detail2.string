@@ -1,0 +1,28 @@
+<div class="detail-wrapper">
+	<header>
+        <ul>
+          <!-- <li class="yo-ico menu">&#xe745;</li> -->
+          <li class="menu" action-type="switch.tabs" data-tag="home">返回</li>
+          <li class="self">个人中心</li>
+        </ul>
+    </header>
+    <section>
+    	<div id="dCon">
+    		<ul>
+    			<li><img src="images/Pikachu.jpg" /></li>
+    			<li>
+    				<b>{{title}}</b>
+    				<span>{{description}}</span>
+    			</li>
+    		</ul>
+            <div class="swiper-container" id="olBox">
+        		<ol class="swiper-wrapper">
+        			<li class="swiper-slide active">图片（1）</li>
+        			<li class="swiper-slide">关注（3）</li>
+        			<li class="swiper-slide">粉丝（8）</li>	
+        		</ol>
+            </div>
+    	</div>
+    	<img ms-src="imgsrc" class="pic"/>
+    </section>
+</div>

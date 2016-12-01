@@ -1,0 +1,18 @@
+<div class="detail-wrapper">
+	<header>
+        <ul>
+          <li class="yo-ico" action-type="go.back">&#xe614;</li>
+          <li>{{title}}</li>
+          <li class="yo-ico">&#xe684;</li>
+        </ul>
+    </header>
+    <section ms-visible="!isShowLoading">
+    	<img ms-src="imgsrc">
+        <article>
+            {{description}}
+        </article>
+    </section>
+    <div class="yo-loading" ms-visible="isShowLoading">
+        <div class="inner"><i class="yo-ico"></i></div>
+    </div> 
+</div>

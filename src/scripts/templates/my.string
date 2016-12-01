@@ -1,0 +1,24 @@
+<!-- <div class="login">
+    <p>
+       <label for="">用户名：</label>
+       <input type="text" ms-duplex="username">
+    </p>
+    <p></p>
+    <p>
+       <label for="">密&nbsp;码：</label>
+       <input type="password" ms-duplex="password">
+    </p>
+    <p>
+        <button ms-on-tap="submit()">提 交</button>
+    </p>
+</div> -->
+<!-- from dialog source code -->
+<div class="yo-dialog yo-dialog-">
+    <div class="bd">
+        <p>请您先登录</p>
+    </div>
+    <footer class="ft">
+        <button class="yo-btn yo-btn-dialog yo-btn-l">注册</button>
+        <button class="yo-btn yo-btn-dialog yo-btn-l">登录</button>
+    </footer>
+</div>

@@ -1,0 +1,53 @@
+*{
+  font-family:"Micorosoft Yahei!important";
+}
+.detail-wrapper{
+  @include flexbox();
+  @include flex(1);
+  @include flex-direction(column);
+  width:100%;
+  height:100%;
+  header{
+     height:.44rem;
+     background:#0FC441;
+     /* 提高优先级，否则点击不到返回 */
+     position:relative;
+     z-index:10000;
+     ul{
+        width:100%;
+        height:100%;
+        @include flexbox();
+        li{
+            width:.44rem;
+            height:100%; 
+            color:#fff;
+            font-size:.18rem;
+            text-align:center;
+            line-height:.44rem;           
+        }
+        li:nth-child(2){
+            @include flex(1);
+            font-size:.14rem;
+            height:100%;
+        }
+     }
+  }
+  section{
+    @include flex(1);
+    width:100%;
+    img{
+      width:100%;
+    }
+    article{
+      display:block;
+      width:100%;
+      height:.4rem;
+      text-align:center;
+      line-height:.4rem;
+      font-size:.14rem;
+      color:#222;
+    }
+   
+  }
+}
+
